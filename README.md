@@ -1,40 +1,46 @@
-# Todo App – Spring Boot REST API
+# Todo App – Spring Boot Project
 
 ## Description
-This is a simple Todo application built using Spring Boot.
-It supports basic CRUD operations using REST APIs.
-
-## Features
-- Create a task
-- View all tasks
-- Update a task
-- Delete a task
+This is a simple Todo application built using Spring Boot and Java.
 
 ## Technologies Used
 - Java
 - Spring Boot
-- Spring Data JPA
-- H2 / MySQL
-- Postman
+- MySQL
+- HTML
+- CSS
+- JavaScript
+
+## Features
+- Add tasks
+- View tasks
+- Delete tasks
+- Mark tasks as completed
 
 ## API Endpoints
 
-### Create Task
-POST /tasks
+GET /tasks  
+Get all tasks
 
-### Get All Tasks
-GET /tasks
+POST /tasks  
+Create a new task
 
-### Update Task
-PUT /tasks/{id}
+PUT /tasks/{id}  
+Update a task
 
-### Delete Task
-DELETE /tasks/{id}
+DELETE /tasks/{id}  
+Delete a task
 
-## How to Run
-1. Open project in IntelliJ
-2. Run TodoappApplication.java
-3. Test APIs using Postman
+## How to Run the Project
 
+1. Clone the repository  
+git clone https://github.com/Dharshini0624/todoapp-java-project.git
+
+2. Open in IntelliJ
+
+3. Run the Spring Boot application
+
+4. Open browser  
+http://localhost:8080
 ## Author
 Dharshini
